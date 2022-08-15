@@ -42,6 +42,7 @@ const sidebars = {
         "guides/mocking",
         "guides/validation",
         "guides/rate-limit",
+        "guides/basic-auth",
         "guides/cache",
         "guides/routing",
         "guides/timeouts",
