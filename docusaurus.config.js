@@ -58,9 +58,20 @@ const config = {
         items: [
           {
             type: 'doc',
+            docId: 'getting-started/installation',
+            position: 'right',
+            label: 'Get Started',
+          },
+          {
+            type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            position: 'right',
+            label: 'Documentation',
+          },
+          {
+            href: 'https://discord.gg/6zupCZFQbe',
+            label: 'Discord',
+            position: 'right',
           },
           {
             href: 'https://github.com/kubeshop/kusk-gateway',
