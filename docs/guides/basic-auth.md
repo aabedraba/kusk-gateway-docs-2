@@ -44,8 +44,8 @@ In the example, in the `hostname` section we're referencing an upstream service 
 
 ![kusk-gateway basic-auth diagram](./img/basic-auth.png)
 
-!!! note non-important "`hostname` can contain any valid domain"
+:::info
+The `hostname` field can contain internal cluster domains but also external domains to your cluster that can handle your header based authentication.
+:::
 
-    The `hostname` field can contain internal cluster domains but also external domains to your cluster that can handle your header based authentication.
-
-See all available Authentication configuration options in the [Extension Reference](../../reference/extension/#authentication).
+See all available Authentication configuration options in the [Extension Reference](../reference/extension/#authentication).

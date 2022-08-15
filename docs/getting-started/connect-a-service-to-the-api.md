@@ -1,4 +1,4 @@
-# Connect a Service
+# Connect an upstream service
 
 Once you have [created an API](deploy-an-api.md) and mocked its responses, you are ready to implement the services and connect them to the API. 
 This section explains how you would connect your services to Kusk-gateway. 
@@ -83,7 +83,7 @@ kubectl apply -f api.yaml
 
 ## **4. Test the API**
 
-Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](../installation/#2-get-the-gateways-external-ip) and run:
+Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](./installation/#get-the-gateways-external-ip) and run:
 
 ```
 $ curl EXTERNAL_IP/hello

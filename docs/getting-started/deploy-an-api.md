@@ -1,4 +1,4 @@
-# Quickstart
+# Deploy an API
 
 Now that you've installed Kusk Gateway, let's have a look at how you can use OpenAPI to configure the operational and functional parts of your API.
 
@@ -55,7 +55,7 @@ kubectl apply -f api.yaml
 
 Given we have enabled gateway-level mocks, we don't need to implement the services to be able to test the API.
 
-Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](../installation/#2-get-the-gateways-external-ip).
+Get the External IP of Kusk-gateway as indicated in [installing Kusk-gateway section](./installation/#get-the-gateways-external-ip).
 
 And query the `/hello` endpoint
 
